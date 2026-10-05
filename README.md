@@ -8,7 +8,6 @@
 [![Vite](https://img.shields.io/badge/Vite-8.3-646CFF.svg)](https://vitejs.dev/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4%2B-F7931E.svg)](https://scikit-learn.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Supported-47A248.svg)](https://www.mongodb.com/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717.svg)](https://github.com/vishnu6383/AI-Based-Tree-Survival-Prediction-and-Plantation-Decision-Support-System.git)
 
 ---
 
@@ -212,8 +211,8 @@ tree-survival-system/
 ### Step 1: Backend Setup & Model Training
 
 ```bash
-# 1. Navigate to project root
-cd c:\Users\vishn\OneDrive\Desktop\evs
+# 1. Navigate to project root directory
+cd tree-survival-system
 
 # 2. Install backend Python dependencies
 pip install -r backend/requirements.txt
