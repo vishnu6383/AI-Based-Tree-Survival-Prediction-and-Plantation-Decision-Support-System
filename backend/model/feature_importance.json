@@ -1,0 +1,94 @@
+[
+  {
+    "feature": "rainfall_mm",
+    "importance": 0.1987
+  },
+  {
+    "feature": "temperature_c",
+    "importance": 0.1939
+  },
+  {
+    "feature": "soil_moisture_percent",
+    "importance": 0.1746
+  },
+  {
+    "feature": "sunlight_hours",
+    "importance": 0.1677
+  },
+  {
+    "feature": "tree_species_Peepal",
+    "importance": 0.0211
+  },
+  {
+    "feature": "soil_type_Clay",
+    "importance": 0.0165
+  },
+  {
+    "feature": "tree_species_Banyan",
+    "importance": 0.016
+  },
+  {
+    "feature": "water_availability_Medium",
+    "importance": 0.0155
+  },
+  {
+    "feature": "water_availability_Low",
+    "importance": 0.0154
+  },
+  {
+    "feature": "soil_type_Red",
+    "importance": 0.0154
+  },
+  {
+    "feature": "soil_type_Loamy",
+    "importance": 0.0146
+  },
+  {
+    "feature": "water_availability_High",
+    "importance": 0.0145
+  },
+  {
+    "feature": "tree_species_Neem",
+    "importance": 0.0141
+  },
+  {
+    "feature": "soil_type_Alluvial",
+    "importance": 0.014
+  },
+  {
+    "feature": "soil_type_Black",
+    "importance": 0.0134
+  },
+  {
+    "feature": "soil_type_Sandy",
+    "importance": 0.0133
+  },
+  {
+    "feature": "tree_species_Mahogany",
+    "importance": 0.0125
+  },
+  {
+    "feature": "tree_species_Bamboo",
+    "importance": 0.0119
+  },
+  {
+    "feature": "tree_species_Sal",
+    "importance": 0.0118
+  },
+  {
+    "feature": "tree_species_Eucalyptus",
+    "importance": 0.0117
+  },
+  {
+    "feature": "tree_species_Gulmohar",
+    "importance": 0.0113
+  },
+  {
+    "feature": "tree_species_Mango",
+    "importance": 0.0112
+  },
+  {
+    "feature": "tree_species_Teak",
+    "importance": 0.0109
+  }
+]

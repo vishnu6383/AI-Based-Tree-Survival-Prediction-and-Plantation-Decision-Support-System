@@ -1,0 +1,76 @@
+[
+  {
+    "id": "ad168e47-6f3f-41e8-9c2a-e711ca8a4d90",
+    "timestamp": "2026-10-05T14:31:11.092914",
+    "environmental_inputs": {
+      "rainfall_mm": 1100.0,
+      "temperature_c": 28.5,
+      "soil_type": "Loamy",
+      "soil_moisture_percent": 45.0,
+      "sunlight_hours": 7.5,
+      "water_availability": "Medium",
+      "tree_species": "Neem"
+    },
+    "selected_species": "Neem",
+    "survival_probability": 0.6772,
+    "survival_percentage": 67.7,
+    "prediction": 1,
+    "status": "Moderate Viability",
+    "risk_level": "Medium Risk",
+    "recommended_species": [
+      "Peepal",
+      "Mahogany",
+      "Banyan"
+    ],
+    "recommendation_reason": "The Random Forest model estimated a 67.7% survival viability (Medium Risk). Excellent ecological match: rainfall, Loamy soil, and thermal parameters align closely with Neem's native envelope.",
+    "notes": ""
+  },
+  {
+    "id": "416a096c-8b37-4795-911d-cfce42f7a1eb",
+    "timestamp": "2026-10-05T14:31:11.020001",
+    "environmental_inputs": {
+      "rainfall_mm": 1100.0,
+      "temperature_c": 28.5,
+      "soil_type": "Loamy",
+      "soil_moisture_percent": 45.0,
+      "sunlight_hours": 7.5,
+      "water_availability": "Medium",
+      "tree_species": "Neem"
+    },
+    "selected_species": "Neem",
+    "survival_probability": 0.6772,
+    "survival_percentage": 67.7,
+    "prediction": 1,
+    "status": "Moderate Viability",
+    "risk_level": "Medium Risk",
+    "recommended_species": [],
+    "recommendation_reason": "The Random Forest model estimated a 67.7% survival viability (Medium Risk). Excellent ecological match: rainfall, Loamy soil, and thermal parameters align closely with Neem's native envelope.",
+    "notes": ""
+  },
+  {
+    "id": "08a6bb3c-bfe4-4399-890e-2a70107103f9",
+    "timestamp": "2026-10-05T10:24:23.110485",
+    "environmental_inputs": {
+      "rainfall_mm": 1100.0,
+      "temperature_c": 28.5,
+      "soil_type": "Loamy",
+      "soil_moisture_percent": 45.0,
+      "sunlight_hours": 7.5,
+      "water_availability": "Medium",
+      "tree_species": "Neem"
+    },
+    "selected_species": "Neem",
+    "survival_probability": 0.6772,
+    "survival_percentage": 67.7,
+    "prediction": 1,
+    "status": "Moderate Viability",
+    "risk_level": "Medium Risk",
+    "recommended_species": [
+      "Peepal",
+      "Mahogany",
+      "Banyan"
+    ],
+    "recommendation_reason": "The Random Forest model estimated a 67.7% survival viability (Medium Risk). Excellent ecological match: rainfall, Loamy soil, and thermal parameters align closely with Neem's native envelope.",
+    "notes": ""
+  }
+]

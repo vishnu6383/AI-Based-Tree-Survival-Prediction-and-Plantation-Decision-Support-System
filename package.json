@@ -1,0 +1,23 @@
+{
+  "name": "tree-survival-system",
+  "version": "1.0.0",
+  "description": "AI-Based Tree Survival Prediction and Plantation Decision Support System",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "train:backend": "python backend/train_model.py",
+    "test:backend": "python backend/test_api.py",
+    "start:backend": "cd backend && uvicorn app.main:app --reload --port 8000"
+  },
+  "keywords": [
+    "ai",
+    "tree-survival",
+    "decision-support",
+    "random-forest",
+    "fastapi",
+    "react",
+    "mongodb"
+  ],
+  "author": "Academic Project Team",
+  "license": "MIT"
+}
