@@ -78,8 +78,8 @@ class PredictionRequest(EnvironmentalInput):
     @classmethod
     def validate_tree_species(cls, v: str) -> str:
         valid_species = [
-            "Neem", "Teak", "Banyan", "Peepal", "Eucalyptus",
-            "Sal", "Gulmohar", "Bamboo", "Mango", "Mahogany"
+            "Mango", "Guava", "Banana", "Coconut", "Papaya",
+            "Pomegranate", "Lemon", "Jackfruit", "Sapota", "Amla"
         ]
         matched = [s for s in valid_species if s.lower() == v.strip().lower()]
         if not matched:

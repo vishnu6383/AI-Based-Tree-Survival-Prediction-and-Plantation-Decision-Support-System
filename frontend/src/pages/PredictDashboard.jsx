@@ -29,16 +29,16 @@ import PlantationGuideModal from '../components/PlantationGuideModal';
 import { predictSurvival, getSpeciesRecommendations, savePredictionRecord } from '../services/api';
 
 const ALL_SPECIES = [
-  'Neem',
-  'Teak',
-  'Banyan',
-  'Peepal',
-  'Eucalyptus',
-  'Sal',
-  'Gulmohar',
-  'Bamboo',
   'Mango',
-  'Mahogany'
+  'Guava',
+  'Banana',
+  'Coconut',
+  'Papaya',
+  'Pomegranate',
+  'Lemon',
+  'Jackfruit',
+  'Sapota',
+  'Amla'
 ];
 
 const SOIL_TYPES = [
@@ -59,7 +59,7 @@ export default function PredictDashboard({ currentParams, setFormParams }) {
       soil_moisture_percent: 50.0,
       sunlight_hours: 7.5,
       water_availability: 'Medium',
-      tree_species: 'Neem'
+      tree_species: 'Mango'
     }
   );
 

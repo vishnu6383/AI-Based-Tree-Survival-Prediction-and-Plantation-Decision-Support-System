@@ -2,224 +2,224 @@
 Species Knowledge Base and Plantation Guidance
 ==============================================
 Contains verified botanical parameters, environmental tolerance ranges, 
-maintenance guidelines, and ecological benefits for all 10 candidate species.
+maintenance guidelines, and high-yield agroforestry parameters for 10 yield-giving candidate fruit & crop tree species.
 """
 
 ALL_SPECIES = [
-    "Neem",
-    "Teak",
-    "Banyan",
-    "Peepal",
-    "Eucalyptus",
-    "Sal",
-    "Gulmohar",
-    "Bamboo",
     "Mango",
-    "Mahogany"
+    "Guava",
+    "Banana",
+    "Coconut",
+    "Papaya",
+    "Pomegranate",
+    "Lemon",
+    "Jackfruit",
+    "Sapota",
+    "Amla"
 ]
 
 ALL_SOILS = ["Red", "Black", "Loamy", "Sandy", "Clay", "Alluvial"]
 WATER_LEVELS = ["Low", "Medium", "High"]
 
 SPECIES_KNOWLEDGE_BASE = {
-    "Neem": {
-        "scientific_name": "Azadirachta indica",
-        "family": "Meliaceae",
-        "optimal_rainfall_mm": (400, 1200),
-        "optimal_temp_c": (21, 38),
-        "compatible_soils": ["Red", "Sandy", "Loamy", "Black", "Alluvial"],
-        "min_sunlight_hours": 6.0,
-        "drought_tolerance": "High",
-        "waterlogging_tolerance": "Low",
-        "growth_rate": "Moderate to Fast",
-        "ecological_value": "Natural bio-pesticide, air purifier, soil enricher, high medicinal yield.",
-        "plantation_guidance": {
-            "pit_dimensions": "45 cm x 45 cm x 45 cm",
-            "spacing_meters": "5m x 5m for agroforestry; 3m x 3m for boundary planting",
-            "soil_preparation": "Mix native soil with 5 kg well-rotted farmyard manure (FYM) and 200g neem cake to deter root grubs.",
-            "irrigation_schedule": "Water twice weekly for first 3 months; weekly during summer; drought hardy once taproot establishes.",
-            "planting_season": "Onset of monsoon (June-July) for optimal root establishment.",
-            "special_care": "Protect young saplings from livestock grazing during first 2 years. Avoid stagnant water zones."
-        }
-    },
-    "Teak": {
-        "scientific_name": "Tectona grandis",
-        "family": "Lamiaceae",
-        "optimal_rainfall_mm": (1200, 2500),
-        "optimal_temp_c": (22, 36),
-        "compatible_soils": ["Alluvial", "Loamy", "Red", "Black"],
-        "min_sunlight_hours": 7.0,
-        "drought_tolerance": "Moderate",
-        "waterlogging_tolerance": "Low to Moderate",
-        "growth_rate": "Moderate",
-        "ecological_value": "High timber value, substantial carbon storage, structural forestry.",
-        "plantation_guidance": {
-            "pit_dimensions": "60 cm x 60 cm x 60 cm",
-            "spacing_meters": "2.5m x 2.5m (1600 plants/ha) or 3m x 3m (1100 plants/ha)",
-            "soil_preparation": "Requires deep well-draining soil with neutral to slightly alkaline pH (6.5 - 7.5). Avoid acidic soils.",
-            "irrigation_schedule": "Deep irrigation every 10-14 days during dry seasons in first 3 years to accelerate diameter growth.",
-            "planting_season": "Pre-monsoon or early monsoon using healthy root-shoot stumps.",
-            "special_care": "Regular debudding and side pruning in years 1-4 to ensure clear knot-free commercial bole."
-        }
-    },
-    "Banyan": {
-        "scientific_name": "Ficus benghalensis",
-        "family": "Moraceae",
-        "optimal_rainfall_mm": (500, 2000),
-        "optimal_temp_c": (16, 40),
-        "compatible_soils": ["Alluvial", "Loamy", "Red", "Clay", "Black"],
-        "min_sunlight_hours": 5.5,
-        "drought_tolerance": "High",
-        "waterlogging_tolerance": "Moderate",
-        "growth_rate": "Fast",
-        "ecological_value": "Keystone species, extensive biodiversity shelter, avian food resource, massive carbon sink.",
-        "plantation_guidance": {
-            "pit_dimensions": "90 cm x 90 cm x 90 cm",
-            "spacing_meters": "15m x 15m minimum due to massive canopy spread and prop roots",
-            "soil_preparation": "Tolerates rugged and marginal soils. Enrich pit with rich organic compost.",
-            "irrigation_schedule": "Water regularly during year 1; once prop roots touch ground it becomes largely self-sustaining.",
-            "planting_season": "Monsoon season (July to September).",
-            "special_care": "Plant away from foundation walls and masonry structures to prevent root intrusion."
-        }
-    },
-    "Peepal": {
-        "scientific_name": "Ficus religiosa",
-        "family": "Moraceae",
-        "optimal_rainfall_mm": (450, 2200),
-        "optimal_temp_c": (15, 42),
-        "compatible_soils": ["Alluvial", "Loamy", "Red", "Black", "Sandy", "Clay"],
-        "min_sunlight_hours": 5.0,
-        "drought_tolerance": "High",
-        "waterlogging_tolerance": "Moderate",
-        "growth_rate": "Fast",
-        "ecological_value": "24/7 oxygen release via Crassulacean Acid Metabolism, sacred grove cornerstone, bird habitat.",
-        "plantation_guidance": {
-            "pit_dimensions": "60 cm x 60 cm x 60 cm",
-            "spacing_meters": "12m x 12m in parks, avenues, or institutional campuses",
-            "soil_preparation": "Hardy across rocky, clayey, and alluvial ground. Mix pit with 10 kg compost.",
-            "irrigation_schedule": "Moderate watering during dry spells in early years.",
-            "planting_season": "Monsoon or post-monsoon when humidity is high.",
-            "special_care": "Maintain adequate clearance from subterranean pipes and foundation walls."
-        }
-    },
-    "Eucalyptus": {
-        "scientific_name": "Eucalyptus globulus / tereticornis",
-        "family": "Myrtaceae",
-        "optimal_rainfall_mm": (600, 1800),
-        "optimal_temp_c": (18, 38),
-        "compatible_soils": ["Loamy", "Sandy", "Red", "Alluvial"],
-        "min_sunlight_hours": 7.0,
-        "drought_tolerance": "High",
-        "waterlogging_tolerance": "Low",
-        "growth_rate": "Very Fast",
-        "ecological_value": "Fast biomass generation, industrial pulpwood, windbreak shelterbelt.",
-        "plantation_guidance": {
-            "pit_dimensions": "30 cm x 30 cm x 30 cm",
-            "spacing_meters": "2m x 2m or 3m x 1.5m for high-density plantation",
-            "soil_preparation": "Prefers well-aerated sandy loam; avoid waterlogged soils.",
-            "irrigation_schedule": "Minimal supplementary irrigation; extracts moisture via deep taproot.",
-            "planting_season": "Beginning of monsoon with clonal seedlings.",
-            "special_care": "Avoid planting directly adjacent to drinking water reservoirs or crop root-zones."
-        }
-    },
-    "Sal": {
-        "scientific_name": "Shorea robusta",
-        "family": "Dipterocarpaceae",
-        "optimal_rainfall_mm": (1000, 3000),
-        "optimal_temp_c": (20, 34),
-        "compatible_soils": ["Loamy", "Red", "Alluvial", "Sandy"],
-        "min_sunlight_hours": 5.5,
-        "drought_tolerance": "Low to Moderate",
-        "waterlogging_tolerance": "Moderate",
-        "growth_rate": "Slow to Moderate",
-        "ecological_value": "Climax forest timber species, resin (dammar) extraction, wildlife watershed protection.",
-        "plantation_guidance": {
-            "pit_dimensions": "60 cm x 60 cm x 60 cm",
-            "spacing_meters": "3m x 3m with progressive thinning at year 7 and 12",
-            "soil_preparation": "Prefers deep, moist, well-aerated sandy loam with acidic to sub-neutral pH.",
-            "irrigation_schedule": "Regular hydration required during dry summer months for young seedlings.",
-            "planting_season": "Sow fresh viable seeds immediately upon ripening at onset of rain.",
-            "special_care": "Seeds lose viability within a week; saplings require shade during peak summer."
-        }
-    },
-    "Gulmohar": {
-        "scientific_name": "Delonix regia",
-        "family": "Fabaceae",
-        "optimal_rainfall_mm": (700, 2000),
-        "optimal_temp_c": (20, 38),
-        "compatible_soils": ["Loamy", "Sandy", "Alluvial", "Red"],
-        "min_sunlight_hours": 7.5,
-        "drought_tolerance": "Moderate to High",
-        "waterlogging_tolerance": "Low",
-        "growth_rate": "Fast",
-        "ecological_value": "Spectacular flaming red canopy, urban microclimate cooler, nectar source for pollinators.",
-        "plantation_guidance": {
-            "pit_dimensions": "50 cm x 50 cm x 50 cm",
-            "spacing_meters": "6m x 6m along avenues or gardens",
-            "soil_preparation": "Mix porous soil with coarse sand and compost to ensure swift drainage.",
-            "irrigation_schedule": "Water when top 3 inches of soil dry out. Avoid overwatering in winter.",
-            "planting_season": "Early monsoon season.",
-            "special_care": "Stake young trees against high velocity winds; prune weak crotches early."
-        }
-    },
-    "Bamboo": {
-        "scientific_name": "Bambusa balcooa / Bambusoideae",
-        "family": "Poaceae",
-        "optimal_rainfall_mm": (1200, 3500),
-        "optimal_temp_c": (18, 35),
-        "compatible_soils": ["Alluvial", "Loamy", "Red", "Clay"],
-        "min_sunlight_hours": 6.0,
-        "drought_tolerance": "Low to Moderate",
-        "waterlogging_tolerance": "High",
-        "growth_rate": "Extremely Fast",
-        "ecological_value": "Highest carbon sequestration per hectare, riverbank stabilization, green building material.",
-        "plantation_guidance": {
-            "pit_dimensions": "60 cm x 60 cm x 60 cm",
-            "spacing_meters": "4m x 4m or 5m x 5m between clumps",
-            "soil_preparation": "Incorporate thick layer of organic mulch and compost to retain moisture.",
-            "irrigation_schedule": "Requires generous moisture during shoot emergence in monsoon.",
-            "planting_season": "Mid monsoon with rhizomes or tissue culture saplings.",
-            "special_care": "Mulch root zones annually; thin out old culms after year 4 to encourage fresh shoots."
-        }
-    },
     "Mango": {
         "scientific_name": "Mangifera indica",
         "family": "Anacardiaceae",
         "optimal_rainfall_mm": (750, 2200),
-        "optimal_temp_c": (22, 37),
+        "optimal_temp_c": (22, 38),
         "compatible_soils": ["Alluvial", "Loamy", "Red", "Black"],
         "min_sunlight_hours": 7.0,
         "drought_tolerance": "Moderate",
         "waterlogging_tolerance": "Low",
         "growth_rate": "Moderate",
-        "ecological_value": "Nutritional fruit supply, economic livelihood, dense canopy shade.",
+        "ecological_value": "High commercial fruit yield, sweet edible produce, dense canopy shade and carbon sequestration.",
         "plantation_guidance": {
             "pit_dimensions": "100 cm x 100 cm x 100 cm",
             "spacing_meters": "8m x 8m to 10m x 10m for standard orchards; 5m x 5m for ultra-high density",
-            "soil_preparation": "Deep fertile alluvium or loam with 20 kg compost, 1 kg single superphosphate.",
-            "irrigation_schedule": "Drip irrigation; withhold irrigation 2 months prior to flowering to stimulate bud break.",
+            "soil_preparation": "Deep fertile alluvium or loam with 20 kg farmyard manure (FYM), 1 kg single superphosphate.",
+            "irrigation_schedule": "Drip irrigation twice weekly in early years; withhold irrigation 2 months prior to flowering to stimulate flower bud initiation.",
             "planting_season": "July to August during calm overcast monsoon days.",
-            "special_care": "Protect graft union above ground level; whitewash trunk to prevent sunscald and stem borers."
+            "special_care": "Protect graft union 15 cm above ground level; whitewash trunk to prevent sunscald and stem borer attacks."
         }
     },
-    "Mahogany": {
-        "scientific_name": "Swietenia macrophylla",
-        "family": "Meliaceae",
-        "optimal_rainfall_mm": (1300, 3200),
-        "optimal_temp_c": (22, 35),
-        "compatible_soils": ["Alluvial", "Loamy", "Clay", "Red"],
-        "min_sunlight_hours": 6.0,
-        "drought_tolerance": "Low to Moderate",
-        "waterlogging_tolerance": "Moderate to High",
-        "growth_rate": "Fast to Moderate",
-        "ecological_value": "Elite timber, soil conservation in humid zones, long-term carbon lockup.",
+    "Guava": {
+        "scientific_name": "Psidium guajava",
+        "family": "Myrtaceae",
+        "optimal_rainfall_mm": (600, 1800),
+        "optimal_temp_c": (20, 36),
+        "compatible_soils": ["Loamy", "Alluvial", "Red", "Sandy", "Clay"],
+        "min_sunlight_hours": 6.5,
+        "drought_tolerance": "High",
+        "waterlogging_tolerance": "Moderate",
+        "growth_rate": "Fast",
+        "ecological_value": "Prolific high-density fruit yield, extremely rich in Vitamin C and pectin, highly adaptable to diverse soil pH.",
         "plantation_guidance": {
             "pit_dimensions": "60 cm x 60 cm x 60 cm",
-            "spacing_meters": "3m x 3m with progressive timber thinning",
-            "soil_preparation": "Deep, fertile, moisture-retentive loam or alluvial soil with high organic matter.",
-            "irrigation_schedule": "Regular watering during dry dry spells in formative years.",
-            "planting_season": "Monsoon onset.",
-            "special_care": "Watch for shoot borer (Hypsipyla grandella) in young plantations; remove infected leaders promptly."
+            "spacing_meters": "4m x 4m (standard) or 3m x 2m (meadow ultra-high density)",
+            "soil_preparation": "Mix soil with 15 kg compost, 250g bone meal, and 100g trichoderma bio-fungicide.",
+            "irrigation_schedule": "Irrigate at 7-10 day intervals during summer; drought hardy once taproot establishes deep.",
+            "planting_season": "Onset of monsoon (June-August) or spring (February-March).",
+            "special_care": "Annual canopy heading back and center pruning after winter harvest to induce heavy bearing fruiting shoots."
+        }
+    },
+    "Banana": {
+        "scientific_name": "Musa acuminata",
+        "family": "Musaceae",
+        "optimal_rainfall_mm": (1200, 2800),
+        "optimal_temp_c": (22, 36),
+        "compatible_soils": ["Loamy", "Alluvial", "Clay", "Red"],
+        "min_sunlight_hours": 6.0,
+        "drought_tolerance": "Low",
+        "waterlogging_tolerance": "Moderate",
+        "growth_rate": "Extremely Fast",
+        "ecological_value": "Year-round food & potassium staple yield, massive organic biomass recycling, rapid harvest turnaround (10-12 months).",
+        "plantation_guidance": {
+            "pit_dimensions": "60 cm x 60 cm x 60 cm",
+            "spacing_meters": "1.8m x 1.8m (3000 plants/ha) or 2m x 2m with drip lines",
+            "soil_preparation": "Deep, nutrient-rich soil enriched with 10 kg compost, 500g neem cake, and 20g carbofuran/bio-nematicide.",
+            "irrigation_schedule": "Frequent irrigation; requires 20-25 liters of water per day per plant via drip system.",
+            "planting_season": "May-June or September-October using healthy sword suckers or tissue culture plantlets.",
+            "special_care": "Desuckering (removing unwanted side shoots), earthing up at month 4, and propping heavy fruiting bunches with bamboo poles."
+        }
+    },
+    "Coconut": {
+        "scientific_name": "Cocos nucifera",
+        "family": "Arecaceae",
+        "optimal_rainfall_mm": (1000, 2600),
+        "optimal_temp_c": (24, 36),
+        "compatible_soils": ["Sandy", "Alluvial", "Loamy", "Red"],
+        "min_sunlight_hours": 7.5,
+        "drought_tolerance": "Moderate",
+        "waterlogging_tolerance": "Moderate",
+        "growth_rate": "Moderate",
+        "ecological_value": "Multi-purpose lifetime economic yield (tender water, copra, oil, coir, shell), coastal windbreak and soil stabilization.",
+        "plantation_guidance": {
+            "pit_dimensions": "100 cm x 100 cm x 100 cm",
+            "spacing_meters": "7.5m x 7.5m (triangular or square system)",
+            "soil_preparation": "Layer bottom of pit with 2 layers of coconut husks (concave side up) for water retention, fill with topsoil, 25 kg FYM, and 1 kg common salt.",
+            "irrigation_schedule": "Water with 40-50 liters every 2-3 days in summer for saplings; basin irrigation once per week for mature palms.",
+            "planting_season": "May-June (pre-monsoon) with 9-12 month old vigorous seedlings having 6-8 healthy green fronds.",
+            "special_care": "Protect seedling bud from rhinoceros beetle and red palm weevil using pheromone traps and neem oil cake barrier."
+        }
+    },
+    "Papaya": {
+        "scientific_name": "Carica papaya",
+        "family": "Caricaceae",
+        "optimal_rainfall_mm": (800, 2000),
+        "optimal_temp_c": (22, 38),
+        "compatible_soils": ["Loamy", "Alluvial", "Sandy", "Red"],
+        "min_sunlight_hours": 7.0,
+        "drought_tolerance": "Moderate",
+        "waterlogging_tolerance": "Low",
+        "growth_rate": "Extremely Fast",
+        "ecological_value": "Continuous commercial fruit yield, papain enzyme extraction, rapid commercial cash flow within 8 months.",
+        "plantation_guidance": {
+            "pit_dimensions": "50 cm x 50 cm x 50 cm on raised beds (30 cm height)",
+            "spacing_meters": "1.8m x 1.8m or 2m x 2m (2500 plants/ha)",
+            "soil_preparation": "Porous, well-draining soil mixed with 10 kg compost, 200g bone meal, and 100g neem cake. Absolutely avoid water stagnant soils.",
+            "irrigation_schedule": "Light frequent drip irrigation. Never allow water to pool at the base of the stem to avoid collar rot (Pythium).",
+            "planting_season": "June-July (monsoon) or February-March (spring) using dioecious or gynodioecious seedlings.",
+            "special_care": "Remove extra male plants in dioecious varieties (maintain 1 male : 10 female ratio); ring weed around the root zone."
+        }
+    },
+    "Pomegranate": {
+        "scientific_name": "Punica granatum",
+        "family": "Lythraceae",
+        "optimal_rainfall_mm": (400, 1000),
+        "optimal_temp_c": (20, 38),
+        "compatible_soils": ["Loamy", "Sandy", "Red", "Alluvial", "Black"],
+        "min_sunlight_hours": 8.0,
+        "drought_tolerance": "High",
+        "waterlogging_tolerance": "Low",
+        "growth_rate": "Moderate",
+        "ecological_value": "High-value export fruit yield, antioxidant-rich arils, thrives in semi-arid and water-scarce terrains.",
+        "plantation_guidance": {
+            "pit_dimensions": "60 cm x 60 cm x 60 cm",
+            "spacing_meters": "4.5m x 3.0m (740 plants/ha) or 4m x 2.5m for intensive cultivation",
+            "soil_preparation": "Mix soil with 20 kg FYM, 500g single superphosphate, and 1 kg neem cake. Ensure good gravelly drainage.",
+            "irrigation_schedule": "Drip irrigation; requires regulated water stress (Bahar treatment) to time flowering and fruit set in dry seasons.",
+            "planting_season": "Monsoon (July-August) with air-layered (goottee) or hardwood cutting saplings.",
+            "special_care": "Train to multi-stem (3-4 main branches); bag fruit bunches with non-woven bags to prevent butterfly fruit borer damage."
+        }
+    },
+    "Lemon": {
+        "scientific_name": "Citrus limon",
+        "family": "Rutaceae",
+        "optimal_rainfall_mm": (600, 1500),
+        "optimal_temp_c": (18, 35),
+        "compatible_soils": ["Loamy", "Alluvial", "Sandy", "Red"],
+        "min_sunlight_hours": 7.0,
+        "drought_tolerance": "Moderate",
+        "waterlogging_tolerance": "Low",
+        "growth_rate": "Fast",
+        "ecological_value": "Continuous year-round citrus fruit yield, high ascorbic acid and essential citrus oils, pollinator magnet.",
+        "plantation_guidance": {
+            "pit_dimensions": "60 cm x 60 cm x 60 cm",
+            "spacing_meters": "4m x 4m to 5m x 5m",
+            "soil_preparation": "Well-aerated sandy loam with pH 6.0-7.5. Incorporate 15 kg manure and 200g micronutrient fertilizer mixture (zinc, boron, iron).",
+            "irrigation_schedule": "Irrigate every 5-7 days in summer; keep soil moist but never soaked.",
+            "planting_season": "June-August during the rainy season with healthy air-layered or grafted plants.",
+            "special_care": "Prune water sprouts and dead twigs annually; spray copper oxychloride to prevent citrus canker and dieback."
+        }
+    },
+    "Jackfruit": {
+        "scientific_name": "Artocarpus heterophyllus",
+        "family": "Moraceae",
+        "optimal_rainfall_mm": (1000, 2600),
+        "optimal_temp_c": (20, 36),
+        "compatible_soils": ["Alluvial", "Loamy", "Red", "Clay"],
+        "min_sunlight_hours": 6.0,
+        "drought_tolerance": "Moderate",
+        "waterlogging_tolerance": "Low",
+        "growth_rate": "Moderate",
+        "ecological_value": "World's largest edible tree fruit yield (up to 30 kg/fruit), valuable timber, highly drought-resilient once mature, climate superfood.",
+        "plantation_guidance": {
+            "pit_dimensions": "100 cm x 100 cm x 100 cm",
+            "spacing_meters": "10m x 10m for standard orchards or 8m x 8m for grafted dwarf cultivars",
+            "soil_preparation": "Deep, porous alluvial/loam soil enriched with 25 kg well-rotted cattle manure and 500g rock phosphate.",
+            "irrigation_schedule": "Weekly watering for young saplings; highly resilient deep taproot once established.",
+            "planting_season": "Onset of monsoon (June-July) with healthy grafted or seedling stock.",
+            "special_care": "Fruit develops on the main trunk and primary branches (cauliflory); maintain clear trunk access and support heavy fruit loads."
+        }
+    },
+    "Sapota": {
+        "scientific_name": "Manilkara zapota",
+        "family": "Sapotaceae",
+        "optimal_rainfall_mm": (700, 1800),
+        "optimal_temp_c": (20, 38),
+        "compatible_soils": ["Alluvial", "Sandy", "Loamy", "Black", "Red"],
+        "min_sunlight_hours": 6.5,
+        "drought_tolerance": "High",
+        "waterlogging_tolerance": "Moderate",
+        "growth_rate": "Moderate",
+        "ecological_value": "High continuous annual sweet fruit yield (Chiku), coastal salinity tolerance, dense evergreen shade.",
+        "plantation_guidance": {
+            "pit_dimensions": "90 cm x 90 cm x 90 cm",
+            "spacing_meters": "8m x 8m to 10m x 10m (100-150 plants/ha)",
+            "soil_preparation": "Deep well-draining soil mixed with 20 kg compost, 1 kg bone meal, and 500g wood ash for potassium.",
+            "irrigation_schedule": "Water every 8-10 days in summer; tolerates mild drought and brackish groundwater.",
+            "planting_season": "Monsoon (July-September) using inarched or softwood grafted plants (e.g. Cricket Ball, Kalipatti).",
+            "special_care": "Remove rootstock suckers appearing below the graft point; shelter young plants from strong desiccating winds."
+        }
+    },
+    "Amla": {
+        "scientific_name": "Phyllanthus emblica",
+        "family": "Phyllanthaceae",
+        "optimal_rainfall_mm": (400, 1400),
+        "optimal_temp_c": (18, 42),
+        "compatible_soils": ["Red", "Sandy", "Loamy", "Black", "Alluvial", "Clay"],
+        "min_sunlight_hours": 7.5,
+        "drought_tolerance": "High",
+        "waterlogging_tolerance": "Moderate",
+        "growth_rate": "Fast",
+        "ecological_value": "Supreme medicinal & commercial fruit yield, extreme Vitamin C content, thrives on marginal sodic/alkaline soils where other crops fail.",
+        "plantation_guidance": {
+            "pit_dimensions": "60 cm x 60 cm x 60 cm",
+            "spacing_meters": "6m x 6m (275 plants/ha) or 5m x 5m",
+            "soil_preparation": "Tolerates alkaline/saline soils (pH up to 8.5). Mix pit with 15 kg FYM and 1 kg gypsum if soil is sodic.",
+            "irrigation_schedule": "Irrigate every 10-14 days during summer months; dormant during peak dry period.",
+            "planting_season": "July-August (monsoon) or February (spring) with budded or patch-budded saplings (e.g. NA-7, Krishna, Chakaiya).",
+            "special_care": "Prune early to maintain 4-5 well-spaced scaffold limbs; mulching tree basins with straw significantly increases fruit retention."
         }
     }
 }

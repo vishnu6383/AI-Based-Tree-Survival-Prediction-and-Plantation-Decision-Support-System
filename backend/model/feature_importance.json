@@ -1,62 +1,42 @@
 [
   {
     "feature": "rainfall_mm",
-    "importance": 0.1987
+    "importance": 0.2177
   },
   {
     "feature": "temperature_c",
-    "importance": 0.1939
+    "importance": 0.2055
   },
   {
     "feature": "soil_moisture_percent",
-    "importance": 0.1746
+    "importance": 0.19
   },
   {
     "feature": "sunlight_hours",
-    "importance": 0.1677
-  },
-  {
-    "feature": "tree_species_Peepal",
-    "importance": 0.0211
-  },
-  {
-    "feature": "soil_type_Clay",
-    "importance": 0.0165
-  },
-  {
-    "feature": "tree_species_Banyan",
-    "importance": 0.016
+    "importance": 0.1655
   },
   {
     "feature": "water_availability_Medium",
-    "importance": 0.0155
+    "importance": 0.0176
   },
   {
     "feature": "water_availability_Low",
-    "importance": 0.0154
-  },
-  {
-    "feature": "soil_type_Red",
-    "importance": 0.0154
-  },
-  {
-    "feature": "soil_type_Loamy",
-    "importance": 0.0146
+    "importance": 0.0164
   },
   {
     "feature": "water_availability_High",
-    "importance": 0.0145
+    "importance": 0.0164
   },
   {
-    "feature": "tree_species_Neem",
-    "importance": 0.0141
+    "feature": "tree_species_Amla",
+    "importance": 0.0157
+  },
+  {
+    "feature": "soil_type_Red",
+    "importance": 0.0134
   },
   {
     "feature": "soil_type_Alluvial",
-    "importance": 0.014
-  },
-  {
-    "feature": "soil_type_Black",
     "importance": 0.0134
   },
   {
@@ -64,31 +44,51 @@
     "importance": 0.0133
   },
   {
-    "feature": "tree_species_Mahogany",
-    "importance": 0.0125
+    "feature": "soil_type_Loamy",
+    "importance": 0.0128
   },
   {
-    "feature": "tree_species_Bamboo",
-    "importance": 0.0119
+    "feature": "soil_type_Clay",
+    "importance": 0.0116
   },
   {
-    "feature": "tree_species_Sal",
-    "importance": 0.0118
+    "feature": "tree_species_Papaya",
+    "importance": 0.0115
   },
   {
-    "feature": "tree_species_Eucalyptus",
-    "importance": 0.0117
+    "feature": "soil_type_Black",
+    "importance": 0.0109
   },
   {
-    "feature": "tree_species_Gulmohar",
-    "importance": 0.0113
+    "feature": "tree_species_Guava",
+    "importance": 0.009
+  },
+  {
+    "feature": "tree_species_Coconut",
+    "importance": 0.0088
+  },
+  {
+    "feature": "tree_species_Sapota",
+    "importance": 0.0087
+  },
+  {
+    "feature": "tree_species_Banana",
+    "importance": 0.0086
+  },
+  {
+    "feature": "tree_species_Jackfruit",
+    "importance": 0.0085
   },
   {
     "feature": "tree_species_Mango",
-    "importance": 0.0112
+    "importance": 0.0085
   },
   {
-    "feature": "tree_species_Teak",
-    "importance": 0.0109
+    "feature": "tree_species_Pomegranate",
+    "importance": 0.0084
+  },
+  {
+    "feature": "tree_species_Lemon",
+    "importance": 0.0081
   }
 ]

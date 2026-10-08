@@ -46,7 +46,7 @@ def run_tests():
         "soil_moisture_percent": 45.0,
         "sunlight_hours": 7.5,
         "water_availability": "Medium",
-        "tree_species": "Neem"
+        "tree_species": "Mango"
     }
     res = client.post("/predict", json=payload)
     assert res.status_code == 200, f"Predict failed: {res.text}"

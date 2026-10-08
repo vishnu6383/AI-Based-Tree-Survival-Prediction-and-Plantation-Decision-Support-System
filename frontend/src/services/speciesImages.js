@@ -1,105 +1,109 @@
 /**
  * Botanical Image Directory & Visual Profiles
- * Local high-resolution verified botanical photography accurately representing all 10 candidate species.
+ * Local high-resolution verified botanical photography representing all 10 high-yield fruit & crop species.
  */
 
 export const SPECIES_PHOTOS = {
-  Neem: {
-    // Azadirachta indica - distinctive serrated pinnate neem leaves & white floral clusters
-    image: '/images/species/neem.jpg',
-    banner: '/images/species/neem.jpg',
-    color: '#10b981',
-    category: 'Medicinal & Agroforestry',
-    badge: 'High Drought Hardy'
-  },
-  Teak: {
-    // Tectona grandis - broad ovate leathery leaves & teak timber trunk
-    image: '/images/species/teak.jpg',
-    banner: '/images/species/teak.jpg',
-    color: '#f59e0b',
-    category: 'High Value Timber',
-    badge: 'Commercial Forestry'
-  },
-  Banyan: {
-    // Ficus benghalensis - iconic massive aerial prop roots & sprawling canopy
-    image: '/images/species/banyan.jpg',
-    banner: '/images/species/banyan.jpg',
-    color: '#059669',
-    category: 'Keystone Ecology',
-    badge: 'Massive Prop Roots & Shade'
-  },
-  Peepal: {
-    // Ficus religiosa - sacred heart-shaped leaves with distinct extended drip tail
-    image: '/images/species/peepal.jpg',
-    banner: '/images/species/peepal.jpg',
-    color: '#34d399',
-    category: 'Sacred & High Oxygen',
-    badge: '24hr Oxygen Release'
-  },
-  Eucalyptus: {
-    // Eucalyptus globulus - tall blue gum tree with pendulous sickle leaves & peeling bark
-    image: '/images/species/eucalyptus.jpg',
-    banner: '/images/species/eucalyptus.jpg',
-    color: '#06b6d4',
-    category: 'Commercial Biomass',
-    badge: 'Extremely Fast Growth'
-  },
-  Sal: {
-    // Shorea robusta - cylindrical reddish-brown trunk & leathery tropical deciduous forest canopy
-    image: '/images/species/sal.jpg',
-    banner: '/images/species/sal.jpg',
-    color: '#d97706',
-    category: 'Climax Forest',
-    badge: 'Watershed Retention'
-  },
-  Gulmohar: {
-    // Delonix regia - flaming scarlet-red floral umbrella canopy with feathery leaves
-    image: '/images/species/gulmohar.jpg',
-    banner: '/images/species/gulmohar.jpg',
-    color: '#f43f5e',
-    category: 'Urban Landscape',
-    badge: 'Vibrant Scarlet Floral'
-  },
-  Bamboo: {
-    // Bambusa balcooa - tall jointed green bamboo culms & dense grove
-    image: '/images/species/bamboo.jpg',
-    banner: '/images/species/bamboo.jpg',
-    color: '#10b981',
-    category: 'Erosion Control',
-    badge: 'Max Carbon Sequestration'
-  },
   Mango: {
-    // Mangifera indica - dense evergreen dome canopy with hanging mango fruit clusters
+    // Mangifera indica - dense evergreen canopy with hanging golden-ripe mango clusters
     image: '/images/species/mango.jpg',
     banner: '/images/species/mango.jpg',
     color: '#eab308',
-    category: 'Agroforestry & Fruit',
-    badge: 'Economic Fruit Yield'
+    category: 'King of Fruits & Agroforestry',
+    badge: 'High Economic Fruit Yield'
   },
-  Mahogany: {
-    // Swietenia macrophylla - large-leaf tropical hardwood timber crown & upright seed capsules
-    image: '/images/species/mahogany.jpg',
-    banner: '/images/species/mahogany.jpg',
-    color: '#8b5cf6',
-    category: 'Elite Hardwood',
-    badge: 'Tropical Carbon Sink'
+  Guava: {
+    // Psidium guajava - prolific yellow-green guavas with high Vitamin C
+    image: '/images/species/guava.jpg',
+    banner: '/images/species/guava.jpg',
+    color: '#84cc16',
+    category: 'High-Density Horticulture',
+    badge: 'Rapid Vitamin C Yield'
+  },
+  Banana: {
+    // Musa acuminata - large vibrant fronds with large banana bunch and purple flower
+    image: '/images/species/banana.jpg',
+    banner: '/images/species/banana.jpg',
+    color: '#fbbf24',
+    category: 'High-Turnover Food Crop',
+    badge: 'Fast 10-Mo Harvest & Biomass'
+  },
+  Coconut: {
+    // Cocos nucifera - laden with coconuts in clusters beneath breezy palm fronds
+    image: '/images/species/coconut.jpg',
+    banner: '/images/species/coconut.jpg',
+    color: '#059669',
+    category: 'Perennial Multi-Yield Palm',
+    badge: 'Water, Oil, Copra & Coir'
+  },
+  Papaya: {
+    // Carica papaya - dense clusters of ripe orange-yellow papayas along the central trunk
+    image: '/images/species/papaya.jpg',
+    banner: '/images/species/papaya.jpg',
+    color: '#f97316',
+    category: 'Fast-Bearing Cash Crop',
+    badge: '8-Month Quick ROI & Papain'
+  },
+  Pomegranate: {
+    // Punica granatum - ruby-red pomegranates hanging from slender sunlit branches
+    image: '/images/species/pomegranate.jpg',
+    banner: '/images/species/pomegranate.jpg',
+    color: '#ef4444',
+    category: 'Semi-Arid Export Fruit',
+    badge: 'Drought Hardy & High Value'
+  },
+  Lemon: {
+    // Citrus limon - bright yellow lemons with lush citrus green foliage
+    image: '/images/species/lemon.jpg',
+    banner: '/images/species/lemon.jpg',
+    color: '#facc15',
+    category: 'Year-Round Citrus Crop',
+    badge: 'Continuous Citrus Harvest'
+  },
+  Jackfruit: {
+    // Artocarpus heterophyllus - giant edible jackfruits attached to main trunk
+    image: '/images/species/jackfruit.jpg',
+    banner: '/images/species/jackfruit.jpg',
+    color: '#15803d',
+    category: 'Massive Yield Superfood',
+    badge: 'Up to 30kg Edible Fruit / Pod'
+  },
+  Sapota: {
+    // Manilkara zapota - heavy bearing sweet chiku / sapota fruits
+    image: '/images/species/sapota.jpg',
+    banner: '/images/species/sapota.jpg',
+    color: '#b45309',
+    category: 'Sweet Perennial Fruit',
+    badge: 'Continuous High Sugar Yield'
+  },
+  Amla: {
+    // Phyllanthus emblica - clusters of translucent green amla berries on feathery branches
+    image: '/images/species/amla.jpg',
+    banner: '/images/species/amla.jpg',
+    color: '#10b981',
+    category: 'Therapeutic Super-Hardy',
+    badge: 'Supreme Vitamin C & Sodic Hardy'
   }
 };
 
 export function getSpeciesPhoto(name) {
-  const key = name || 'Neem';
+  const key = name || 'Mango';
   return SPECIES_PHOTOS[key]?.image || `/images/species/${key.toLowerCase()}.jpg`;
 }
 
 export function getSpeciesBanner(name) {
-  const key = name || 'Neem';
+  const key = name || 'Mango';
   return SPECIES_PHOTOS[key]?.banner || `/images/species/${key.toLowerCase()}.jpg`;
 }
 
 export function getSpeciesCategory(name) {
-  return SPECIES_PHOTOS[name]?.category || 'General Forestry';
+  return SPECIES_PHOTOS[name]?.category || 'Fruit & Yield Agroforestry';
 }
 
 export function getSpeciesBadge(name) {
-  return SPECIES_PHOTOS[name]?.badge || 'Afforestation Candidate';
+  return SPECIES_PHOTOS[name]?.badge || 'High Yield';
+}
+
+export function getSpeciesColor(name) {
+  return SPECIES_PHOTOS[name]?.color || '#10b981';
 }
